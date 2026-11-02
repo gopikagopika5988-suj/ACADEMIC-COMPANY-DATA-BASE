@@ -1,0 +1,11 @@
+use college_d;
+show tables;
+select * from courses,enrollments,students;
+select first_name,last_name from students;
+select first_name,date_of_birth,city,department,percentage from students;
+select * from courses;
+select course_name,credits from courses;
+select student_id,course_id,marks from enrollments;
+select first_name as Name,city as Home_city from students;
+select course_name as Course,credits as Credit_point from courses;
+select student_id as ID,first_name as FirstName from students;
