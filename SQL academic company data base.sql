@@ -1,6 +1,8 @@
 use college_d;
 show tables;
-select * from courses,enrollments,students;
+describe courses;
+describe enrollments;
+describe students;
 select first_name,last_name from students;
 select first_name,date_of_birth,city,department,percentage from students;
 select * from courses;
